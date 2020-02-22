@@ -106,7 +106,7 @@ func main() {
 				updates.AddSuites(comment, suites)
 
 				if !dry {
-					client := testrail.NewClient("https://docker.testrail.com", username, token)
+					client := testrail.NewClient("https://mirantis.testrail.com", username, token)
 					for i := 0; i < retries; i++ {
 						results, err := updates.CreatePayload()
 						if err != nil {
@@ -196,7 +196,7 @@ func main() {
 					log.Fatalf("Must set --suite-id to a non-zero integer")
 				}
 
-				client := testrail.NewClient("https://docker.testrail.com", username, token)
+				client := testrail.NewClient("https://mirantis.testrail.com", username, token)
 				cases, err := client.GetCases(projectID, suiteID)
 				if err != nil {
 					log.Fatalf("Error getting cases: %s", err)
