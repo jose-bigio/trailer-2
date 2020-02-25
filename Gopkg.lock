@@ -39,25 +39,12 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:bc0e3de5e9bea5d4efb093af21932b620b715a02630ed820d545850ddff59baa"
-  name = "github.com/stretchr/objx"
-  packages = ["."]
-  pruneopts = "U"
-  revision = "477a77ecc69700c7cdeb1fa9e129548e1c1c393c"
-  version = "v0.1.1"
-
-[[projects]]
-  digest = "1:bf786ea11747e5a28825a060bda42b9698f711eca0552e1cce6bed7a010b87ec"
+  digest = "1:93e7b20e7230ca1366b4afbeb96542ffa37707603d77f9381ca5d165f8230de3"
   name = "github.com/stretchr/testify"
-  packages = [
-    ".",
-    "assert",
-    "http",
-    "mock",
-  ]
+  packages = ["assert"]
   pruneopts = "U"
-  revision = "221dbe5ed46703ee255b1da0dec05086f5035f62"
-  version = "v1.4.0"
+  revision = "3ebf1ddaeb260c4b1ae502a01c7844fa8c1fa0e9"
+  version = "v1.5.1"
 
 [[projects]]
   digest = "1:03c2c8903e5e313ddf03929c459c71847f2b7738085330c14ee95cfb4e26e87d"
@@ -68,11 +55,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8a23ef482b838112bbb1c8f0dad12b022891fd05a3c3fdc5a2b555eb3968fee8"
+  digest = "1:7b25719885ebcc3fc6060dc1c7e459bbb72f9e087242cc19a1731bc9edcaba56"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "U"
-  revision = "749cb33beabd9aa6d3178e3de05bcc914f70b2bf"
+  revision = "d5e6a3e2c0ae16fc7480523ebcb7fd4dd3215489"
 
 [[projects]]
   digest = "1:896465634474f19642ac8b7bef06539d2b898539b6cd34c7236653fc50d30768"
@@ -87,7 +74,7 @@
   input-imports = [
     "github.com/educlos/testrail",
     "github.com/onsi/ginkgo/reporters",
-    "github.com/stretchr/testify",
+    "github.com/stretchr/testify/assert",
     "github.com/urfave/cli",
     "gopkg.in/yaml.v2",
   ]
